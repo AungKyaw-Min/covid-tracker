@@ -38,7 +38,6 @@ export const showDataOnMap = (data, casesType) =>
       }
     >
       <Popup>
-      <h1>{casesTypeColors[casesType].hex}</h1>
         <div className="info-container">
           <div
             className="info-flag"
